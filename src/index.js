@@ -7,6 +7,7 @@ import {Route,Link, BrowserRouter as Router,Switch}from 'react-router-dom'
 import Home from './component/Home';
 import Content from './component/Content';
 import PagenotFound from './component/Pagenotfound';
+import { User } from './component/User';
 const routing= (
     <Router>
         <div>
@@ -19,6 +20,9 @@ const routing= (
                 </li>
                 <li>
                     <Link to="/Content">Content</Link>
+                </li>
+                <li>
+                    <Link to="/user">User</Link>
                 </li>
             </ul>
             <Switch>
